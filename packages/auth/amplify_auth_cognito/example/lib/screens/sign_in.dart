@@ -103,6 +103,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                   hintText: 'Your username',
                   labelText: 'Username *',
                 ),
+                style: TextStyle(color: Colors.black), // Modify text color
               ),
               TextFormField(
                 key: const Key('signin-password-input'),
@@ -113,6 +114,7 @@ class _SignInWidgetState extends State<SignInWidget> {
                   hintText: 'Your password',
                   labelText: 'Password *',
                 ),
+                style: TextStyle(color: Colors.black), // Modify text color
               ),
               const Padding(padding: EdgeInsets.all(5)),
               GridView.count(
